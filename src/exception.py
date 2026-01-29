@@ -1,5 +1,5 @@
 import sys
-import logging
+from src.logger import logging
 
 def error_message_detail(error,error_detail:sys):
     _,_,exc_tb=error_detail.exc_info()
@@ -21,7 +21,7 @@ class CustomException(Exception):
         return self.error_message
     
     if __name__ == "__main__":
-        logging.basicConfig(level=logging.INFO)
+        
 
         try:
             a=1/0
