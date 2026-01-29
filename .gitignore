@@ -1,3 +1,17 @@
+# virtual environments
+mlenv/
+venv/
+.env/
+
+# python cache
+__pycache__/
+*.pyc
+
+# packaging
+*.egg-info/
+build/
+dist/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
